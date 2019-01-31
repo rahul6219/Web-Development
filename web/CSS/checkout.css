@@ -1,0 +1,55 @@
+body{
+    background-image: url("../Images/Check outpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+/*    opacity: 0.3;
+    filter: alpha(opacity=30);*/
+}
+.overlay{
+    position: absolute; 
+    background-color: rgba(0,0,0,0.1); 
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.txt{
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+label{
+    font: 12px;
+}
+
+th.text{
+    
+    color: darkblue;
+    border: 2px solid black;
+    border-radius: 12px;
+    
+    
+}
+.bb{
+    border: 2px solid #d51414;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+div.bb h1{
+    font-weight: bold;
+    color: black;
+}
+div.bb h2{
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,16 @@
+.cart{
+    background-image: url("../Images/Check outpage.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

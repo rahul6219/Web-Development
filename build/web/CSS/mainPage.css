@@ -1,0 +1,42 @@
+
+table {
+    border-spacing: 20px;
+}
+
+text {
+    font-size: 30px;
+}
+
+.bg{
+    background-image: url("../Images/cinema-2093264_1280.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+th.text{
+    font-family: "Times New Roman", Times, serif;
+    color: darkblue;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: cornsilk;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.ifStat{
+    font-family: "Times New Roman", Times, serif;
+    color: darkblue;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: cornsilk;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}

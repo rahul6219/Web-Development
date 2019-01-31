@@ -1,0 +1,40 @@
+body{
+    background-image: url("../Images/thats_all_folks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+     background-color: rgba(0,0,0,0.1); 
+    height: 100%;
+    margin: 0;
+    color: #ffffff;
+}
+.txt{
+    color: #ffffff;
+}
+table,tr{
+    font-family: "Times New Roman", Times, serif;
+    color: darkblue;
+    border: 0px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    opacity: .95;
+    filter: alpha(opacity=95);
+}
+.tab{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    align-content: center;
+    align-self: center;
+}
+table:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    color: white;   
+}

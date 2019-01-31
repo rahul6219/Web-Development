@@ -1,0 +1,43 @@
+body{
+    background-image: url("../Images/stock-vectormain.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.2); 
+}
+table,tr{
+    font-family: "Times New Roman", Times, serif;
+    color: darkblue;
+    border: 0px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+.tab{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    align-content: center;
+    align-self: center;
+}
+table:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    color: white;   
+}
+
+.overlay{
+    position: absolute; 
+    background-color: rgba(0,0,0,0.2); 
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
